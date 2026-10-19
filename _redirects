@@ -1,0 +1,8 @@
+# Redirections lues par Cloudflare Pages (fichier facultatif)
+#
+# Format : /ancienne-adresse  /nouvelle-adresse  [code]
+#
+# Exemple — si un rapport est un jour renommé, gardez l'ancien lien valide :
+# /assets/rapports/ancien-nom.pdf  /assets/rapports/nouveau-nom.pdf  301
+#
+# Aucune redirection n'est nécessaire pour le moment : le site tient sur une seule page.
