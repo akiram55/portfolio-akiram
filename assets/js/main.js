@@ -452,7 +452,7 @@
 
     if (!button) return;
 
-    var email = "lawaniak@gmail.com";
+    var email = "lawaniakiram@gmail.com";
 
     function announce(message) {
       if (status) status.textContent = message;

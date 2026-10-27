@@ -66,7 +66,7 @@ window.PROJETS = [
   {
     id: "it-quiz-challenge",
     numero: "Projet 03",
-    titre: "IT Quiz Challenge — Application de quiz informatique",
+    titre: "IT Quiz Challenge : Application de quiz informatique",
     tags: [
       "Développement web",
       "JavaScript",
