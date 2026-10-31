@@ -85,5 +85,32 @@ window.PROJETS = [
     rapport: {
       fichier: "https://akiram55.github.io/it-quiz-challenge/docs/rapport_it_quiz_challenge.pdf"
     }
+  },
+    
+  /* ----------------------------------------------------------------------
+     PROJET 04 — LinuxVaultAudit
+     ---------------------------------------------------------------------- */
+  {
+    id: "linuxvaultaudit",
+    numero: "Projet 04",
+    titre: "LinuxVaultAudit : Audit et durcissement des permissions Linux",
+    tags: [
+      "Administration Linux",
+      "Sécurité système",
+      "Scripting Bash"
+    ],
+    resume:
+      "Audit de sécurité simulant l'intervention d'un analyste pour une PME fictive : détection de permissions excessives sur des fichiers et dossiers sensibles (chmod/chown/stat, find -perm), définition d'une politique d'accès par rôle métier, correction automatisée via un script Bash avec mode simulation (--dry-run), et gestion fine des accès partagés avec les ACL (setfacl/getfacl).",
+    outils: [
+      "Bash",
+      "Linux",
+      "ACL",
+      "Audit de sécurité"
+    ],
+    lienProjet: "https://github.com/akiram55/linuxvaultaudit",
+    rapport: {
+      fichier: "https://akiram55.github.io/linuxvaultaudit/rapport-linuxvaultaudit.pdf"
+    }
   }
+
 ];
